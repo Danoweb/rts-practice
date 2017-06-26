@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Carriers</h1>
+    <p class="lead">This site contains a list of Carriers available on our preferred carrier network.  You may search existing Carriers or add new Carriers.</p>
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <a href="@Url.Action("Index", "Carriers")" class="btn btn-lg btn-info">
+                View Carrier List <span class="glyphicon glyphicon-search"></span>
+            </a>
+        </div>
+        <div class="col-md-6 text-center">
+            <a href="@Url.Action("Create", "Carriers")" class="btn btn-lg btn-info">
+                Add New Carrier <span class="glyphicon glyphicon-plus-sign"></span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Reliable Transportation Solutions</h2>
+        <p>
+            YOUR TRUSTED SUPPLY CHAIN AND TRANSPORTATION  PARTNER.
+            RTS delivers unparalleled logistics and transportation solutions with a team of experienced professionals who, through the use of innovative technology and unsurpassed customer service, continuously exceed our customers’ and carriers’ expectations.
+        </p>
+        <p><a class="btn btn-default" href="http://relyonrts.com" target="_blank">Learn more <span class="glyphicon glyphicon-export"></span></a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Federal Motor Carrier Safety Administration</h2>
+        <p>Do you know who you are dealing with?  Use this government form to lookup motor Carriers in the USA and stay on top of problems before they start!</p>
+        <p><a class="btn btn-default" href="http://li-public.fmcsa.dot.gov/LIVIEW/pkg_html.prc_limain" target="_blank">Motor Carrier Search <span class="glyphicon glyphicon-export"></span></a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Developer Profile</h2>
+        <p>This application developed by Dan Reed.  For more information you can view his linked in profile on LinkedIn: <a href="https://www.linkedin.com/in/danreed1986/" target="_blank"></a></p>
+        <p><a class="btn btn-default" href="https://www.linkedin.com/in/danreed1986/">Linked In <span class="glyphicon glyphicon-export"></span></a></p>
+    </div>
+</div>
